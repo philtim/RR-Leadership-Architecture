@@ -1,0 +1,13 @@
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Temporary exports
+*.tmp
+*.bak
+~$*
+
+# Local notes that should not become architecture
+local-notes/
+scratch/

@@ -70,7 +70,7 @@ Nachteile:
 ## Begruendung
 
 Das Schichtenmodell entspricht der Denkweise einer Enterprise Architecture und
-passt zur beschriebenen Arbeitsweise von Philipp als Solution Architect.
+passt zur beschriebenen architektonischen Arbeitsweise der Hauptstammleitung.
 
 Es verhindert, dass ein Werkzeug, ein Meeting oder ein einzelnes Problem die
 Gesamtarchitektur dominiert.

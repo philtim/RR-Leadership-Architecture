@@ -59,9 +59,9 @@ Nachteile:
 
 ## Begruendung
 
-Philipp denkt und arbeitet stark architektonisch. GitHub und Markdown passen zu
-einer iterativen Architekturarbeit, ohne proprietaere Dokumentformate zu
-erzwingen.
+Die Hauptstammleitung denkt und arbeitet stark architektonisch. GitHub und
+Markdown passen zu einer iterativen Architekturarbeit, ohne proprietaere
+Dokumentformate zu erzwingen.
 
 Der technische Anspruch wird durch klare Templates und einfache Schreibregeln
 begrenzt.

@@ -8,7 +8,7 @@ mit dem Dokument verlinkt, in dem die Antwort festgehalten wurde.
 
 | ID | Ebene | Frage | Status | Angelegt |
 |---|---|---|---|---|
-| Q-001 | Mission | Was ist die spezifische Mission unseres Stammes über die Bundesmission hinaus? Konkret: Wenn der Stamm nächstes Jahr verschwände — was würde Stadt und Gemeinde fehlen, das kein anderer ersetzt? | offen — Phil denkt nach | 2026-07-14 |
+| Q-001 | Mission | Was ist die spezifische Mission unseres Stammes über die Bundesmission hinaus? Konkret: Wenn der Stamm nächstes Jahr verschwände — was würde Stadt und Gemeinde fehlen, das kein anderer ersetzt? | offen — Hauptstammleitung denkt nach | 2026-07-14 |
 | Q-002 | Architekturprinzipien | Die Hauptstammleitung ist ein Ehepaar, das Vision, Geistliches, Finanzen, Personal und Koordination hält. Wie wird die Architektur so gebaut, dass sie diesen Ausfall überlebt? (Klumpenrisiko als Designkriterium, nicht nur als Nachfolge-Arbeitspaket) | offen | 2026-07-14 |
 | Q-003 | Operating Model | Der SLK hat 13 Personen — Gruppen dieser Größe diskutieren, sie entscheiden nicht. Welches Gremium bzw. welche Rolle entscheidet künftig was? Braucht der SLK selbst eine andere Größe oder einen anderen Zuschnitt? | offen | 2026-07-14 |
 | Q-004 | Operating Model | Teilstämme × Domains × Projekte ergibt eine Matrixorganisation. Wer entscheidet bei Zuständigkeitskonflikten, z. B. Domain-Owner vs. Teilstammleiter? Konfliktregel muss explizit definiert werden. | offen | 2026-07-14 |

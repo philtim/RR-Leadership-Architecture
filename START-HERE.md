@@ -1,6 +1,6 @@
 # Start Here
 
-Diese Datei ist der praktische Einstieg fuer Philipp und seine Frau.
+Diese Datei ist der praktische Einstieg fuer die Hauptstammleitung.
 
 RRLA wird nicht in einem grossen Wurf fertiggestellt. Ihr arbeitet Schicht fuer
 Schicht. Jede Schicht beantwortet nur die Fragen, die fuer diese Ebene wirklich
@@ -66,7 +66,7 @@ Erst dort klaert ihr:
 
 ## Wie ihr zusammen arbeitet
 
-Empfohlener Rhythmus fuer euch zwei:
+Empfohlener Rhythmus fuer die Hauptstammleitung:
 
 1. Jeder liest das aktuelle Kapitel allein.
 2. Jeder notiert Antworten, Widerspruch und offene Fragen.

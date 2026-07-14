@@ -1,21 +1,22 @@
-# Templates
+# Vorlagen
 
-Diese Vorlagen halten RRLA einheitlich und leicht bearbeitbar.
+Vorlagen geben Orientierung, ohne Ergebnisse vorwegzunehmen.
 
-Nutze sie als Startpunkt, nicht als Formularzwang. Wenn eine Vorlage fuer ein
-Thema zu schwer wirkt, kuerze sie.
+| Vorlage | Verwendung |
+|---|---|
+| [`working-document-template.md`](working-document-template.md) | allgemeines RRLA-Arbeitskapitel |
+| [`workshop-template.md`](workshop-template.md) | Vorbereitung und Ergebnissicherung eines Workshops |
+| [`adr-template.md`](adr-template.md) | autorisierte Architekturentscheidung |
+| [`domain-template.md`](domain-template.md) | dauerhafte fachliche Domain |
+| [`process-template.md`](process-template.md) | wiederholbarer Ablauf nach geklärtem Owner |
 
-## Vorlagen
+Die Standardstruktur lautet, soweit sie zum Dokumenttyp passt:
 
-- [`document-template.md`](document-template.md): allgemeines Kapitel oder Konzept
-- [`domain-template.md`](domain-template.md): fachlicher Verantwortungsbereich
-- [`process-template.md`](process-template.md): wiederholbarer Prozess
-- [`adr-template.md`](adr-template.md): Architecture Decision Record
-
-## Regel
-
-Jedes Dokument soll drei Dinge klar machen:
-
-1. Warum existiert es?
-2. Was ist entschieden oder vorgeschlagen?
-3. Was ist noch offen?
+1. Warum?
+2. Kontext
+3. Beobachtungen
+4. Spannungsfelder
+5. Leitfragen
+6. Gemeinsame Erkenntnisse
+7. Architekturentwurf
+8. Architekturentscheidung / ADR

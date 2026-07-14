@@ -1,107 +1,108 @@
-# Start Here
+# Start- und Arbeitsanleitung
 
-Diese Datei ist der praktische Einstieg fuer die Hauptstammleitung.
+Diese Anleitung führt die Hauptstammleitung vom Repository zum ersten
+gemeinsamen RRLA-Arbeitszyklus mit dem SLK.
 
-RRLA wird nicht in einem grossen Wurf fertiggestellt. Ihr arbeitet Schicht fuer
-Schicht. Jede Schicht beantwortet nur die Fragen, die fuer diese Ebene wirklich
-wichtig sind. Alles andere wird in `OPEN-QUESTIONS.md` geparkt.
+## Was jetzt ausdrücklich nicht passiert
 
-## Grundregel
+- Es wird keine fertige Zielorganisation vorgestellt.
+- Der SLK bekommt kein bereits ausgefülltes Regelwerk zur Abnahme.
+- Rollen werden noch keinen Personen zugewiesen.
+- Akute Einzelprobleme bestimmen nicht die Gesamtarchitektur.
+- RRBase oder andere Werkzeuge geben keine Organisationsstruktur vor.
 
-Erst Zielarchitektur, dann Umsetzung.
+## Schritt 1: Architekturverantwortung gemeinsam klären
 
-Eine akute Baustelle darf benannt werden, aber sie wird erst geloest, wenn klar
-ist, zu welchem Zielbild sie gehoert.
+Lest zu zweit:
 
-## Empfohlener erster Durchlauf
+- [`README.md`](README.md)
+- [`00-foundation/architecture-process.md`](00-foundation/architecture-process.md)
+- [`CONTRIBUTING.md`](CONTRIBUTING.md)
 
-### Schritt 1: Kontext klaeren
+Klären solltet ihr nur:
 
-Lest gemeinsam:
+- Wer moderiert den ersten Workshop?
+- Wer hält Beobachtungen und Ergebnisse fest?
+- Wie gebt ihr dem SLK echte Freiheit, den Rahmen zu prüfen?
+- Wie verhindert ihr, dass eure eigenen Hypothesen als Beschlüsse erscheinen?
 
-- `README.md`
-- `00-introduction/README.md`
-- `OPEN-QUESTIONS.md`
+## Schritt 2: Ausgangslage vorbereiten
 
-Ergebnis:
+Prüft
+[`00-foundation/context-and-observations.md`](00-foundation/context-and-observations.md).
 
-- Ihr versteht die Arbeitsweise.
-- Ihr habt die Ausgangslage grob sortiert.
-- Ihr wisst, welche Fragen gerade offen sind.
+Markiert jede Aussage als eine der folgenden Kategorien:
 
-### Schritt 2: Mission und Vision bearbeiten
+- belastbare Tatsache
+- Beobachtung, die im SLK gespiegelt werden soll
+- Hypothese, die noch geprüft werden muss
 
-Startet mit `01-mission/README.md`.
+Ergänzt keine Lösungsvorschläge. Der erste Workshop beginnt mit gemeinsamer
+Wahrnehmung.
 
-Schreibt bewusst noch keine Rollen, Gremien oder Domain-Strukturen fest.
-Die erste Schicht beantwortet:
+## Schritt 3: Ersten SLK-Workshop vorbereiten
 
-- Warum existiert unser Stamm?
-- Was soll in zehn Jahren anders, gesuender und tragfaehiger sein?
-- Was darf sich niemals veraendern?
+Verwendet das Paket unter
+[`01-workshops/01-slk-auftakt`](01-workshops/01-slk-auftakt/README.md):
 
-### Schritt 3: Kultur und Prinzipien formulieren
+- [`facilitator-guide.md`](01-workshops/01-slk-auftakt/facilitator-guide.md)
+  für Ablauf und Moderation
+- [`participant-workbook.md`](01-workshops/01-slk-auftakt/participant-workbook.md)
+  als Arbeitsblatt für die Teilnehmenden
 
-Danach folgt `02-culture/README.md`.
+Vor dem Termin:
 
-Hier entsteht der Massstab fuer spaetere Entscheidungen:
+1. Dauer und Raum festlegen; empfohlen sind 120 Minuten.
+2. Arbeitsblatt ausdrucken oder digital bereitstellen.
+3. Moderation und Dokumentation auf zwei Personen verteilen.
+4. Beobachtungskarten oder Haftnotizen vorbereiten.
+5. Entscheiden, welche Zahlen zur Entwicklung des Stammes belastbar sind.
 
-- Welche Art von Leiterschaft wollen wir leben?
-- Wie gehen wir mit Verantwortung, Fehlern, Vertrauen und Kontrolle um?
-- Welche Architekturprinzipien gelten fuer jede spaetere Struktur?
+## Schritt 4: Workshop durchführen
 
-### Schritt 4: Erst dann Struktur entwerfen
+Das Ziel ist nicht Konsens über Lösungen. Der Workshop ist erfolgreich, wenn:
 
-Wenn Mission, Vision und Kultur tragfaehig formuliert sind, beginnt
-`03-operating-model/README.md`.
+- der Veränderungsbedarf gemeinsam verstanden wird,
+- Beobachtungen und Bewertungen getrennt wurden,
+- die wichtigsten Spannungsfelder sichtbar sind,
+- Rollen im RRLA-Prozess verstanden sind,
+- der SLK den nächsten Arbeitszyklus mitträgt.
 
-Erst dort klaert ihr:
+## Schritt 5: Ergebnisse sichern
 
-- Rolle der Hauptstammleitung
-- Rolle des SLK
-- Rolle der Teilstaemme
-- Rolle von Domains und Projekten
-- Entscheidungswege
-- Meeting-System
+Innerhalb von sieben Tagen:
 
-## Wie ihr zusammen arbeitet
+1. Rohnotizen in klare Beobachtungen und Erkenntnisse überführen.
+2. Neue Fragen in
+   [`07-roadmap/backlog.md`](07-roadmap/backlog.md) aufnehmen.
+3. Das Workshop-Dokument um „Gemeinsame Erkenntnisse“ ergänzen.
+4. Noch keine inhaltlichen Entscheidungen erfinden.
+5. Dem SLK eine kurze Ergebniszusammenfassung zum Gegenlesen geben.
 
-Empfohlener Rhythmus fuer die Hauptstammleitung:
+## Schritt 6: Nächsten Zyklus auswählen
 
-1. Jeder liest das aktuelle Kapitel allein.
-2. Jeder notiert Antworten, Widerspruch und offene Fragen.
-3. Ihr besprecht nur die Unterschiede und Spannungen.
-4. Ihr formuliert einen gemeinsamen Entwurf.
-5. Ihr markiert unsichere Aussagen als Hypothese.
-6. Erst wenn eine Schicht stimmig ist, geht ihr weiter.
+Der empfohlene nächste Arbeitszyklus behandelt die Kernfrage:
 
-## Wann der SLK dazukommt
+> Was glauben wir über Gott, Menschen, Leitung und Wachstum – und welche
+> Konsequenzen hat das für die Art, wie wir unseren Stamm führen?
 
-Der SLK sollte nicht auf einem leeren Blatt starten.
+Erst daraus werden Vision, Führungsphilosophie und Architekturprinzipien
+entwickelt. Der aktuelle Fahrplan steht in
+[`07-roadmap/README.md`](07-roadmap/README.md).
 
-Empfohlener Ablauf:
+## Arbeitsrhythmus
 
-1. Hauptstammleitung erstellt Version 0.1.
-2. SLK bekommt den Entwurf zur Pruefung.
-3. Der SLK sucht Luecken, Risiken und praktische Spannungen.
-4. Hauptstammleitung arbeitet Feedback ein.
-5. Der SLK committed sich auf die Leitplanken.
+Für jedes Thema gilt:
 
-Leitsatz:
+```mermaid
+flowchart LR
+    A[Rahmen vorbereiten] --> B[SLK-Review]
+    B --> C[Workshop]
+    C --> D[Erkenntnisse dokumentieren]
+    D --> E[Entwurf erstellen]
+    E --> F[Entscheidung oder Pilot]
+    F --> G[Review]
+```
 
-> Wer betroffen ist, wird gehoert. Wer Verantwortung traegt, entscheidet.
-
-## Was nicht in RRLA gehoert
-
-Nicht jedes Detail muss dokumentiert werden.
-
-RRLA ist kein Ablageort fuer:
-
-- einzelne Chatverlaeufe
-- kurzfristige To-do-Listen
-- Protokolle jedes Meetings
-- private Notizen
-- ungepruefte Tool-Ideen
-
-Solche Dinge koennen als Input dienen, werden aber erst in RRLA aufgenommen,
-wenn sie Architektur, Entscheidung oder Umsetzung beruehren.
+Der Prozess darf iterieren. Ein früher Entwurf ist kein Versprechen und ein
+Workshop-Ergebnis ist noch keine Entscheidung.

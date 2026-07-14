@@ -1,65 +1,68 @@
-# Prozess: Name
+# Prozess-Kandidat: Name
 
-Status: Entwurf
-Owner: TBD
-Domain: TBD
-Letzte Aktualisierung: YYYY-MM-DD
+Status: Arbeitsgrundlage
+Vorgesehener Owner: ...
+Domain / Projekt / Linie: ...
 
-## Zweck
+## Warum könnte dieser Prozess nötig sein?
 
-Warum existiert dieser Prozess?
+Welches wiederkehrende Problem oder Risiko rechtfertigt einen definierten
+Ablauf?
 
-## Ausloeser
+## Kontext
 
-Was startet den Prozess?
+Welche Rollen, Entscheidungen und Werkzeuge sind betroffen?
 
-## Beteiligte Rollen
+## Beobachtungen
 
-| Rolle | Verantwortung |
+- ...
+
+## Spannungsfelder
+
+- Verlässlichkeit ↔ Einfachheit
+- Standard ↔ situative Entscheidung
+- ...
+
+## Leitfragen
+
+- Wer darf den Prozess festlegen und verändern?
+- Was ist der kleinstmögliche verlässliche Ablauf?
+- Welche Entscheidungspunkte brauchen ein Mandat?
+- Welche Ausnahmen und Sicherheitsleitplanken gibt es?
+- Was muss dokumentiert werden?
+
+## Gemeinsame Erkenntnisse
+
+Noch offen.
+
+## Architekturentwurf
+
+### Auslöser und Ergebnis
+
+### Beteiligte Rollen und Entscheidungsrechte
+
+| Rolle | Beitrag / Entscheidung |
 |---|---|
-| Owner | TBD |
-| Ausfuehrend | TBD |
-| Zu informieren | TBD |
-| Entscheidung | TBD |
+| Owner | ... |
+| Ausführend | ... |
+| Zu beteiligen | ... |
+| Zu informieren | ... |
 
-## Ablauf
+### Minimaler Ablauf
 
 ```mermaid
-flowchart TD
-    A[Start] --> B[TBD]
-    B --> C[Ende]
+flowchart LR
+    A[Auslöser] --> B[Schritt]
+    B --> C{Entscheidung}
+    C --> D[Ergebnis]
 ```
 
-## Entscheidungspunkte
+### Leitplanken, Ausnahmen und Risiken
 
-Welche Entscheidungen entstehen im Prozess?
+### Benötigte Informationen und Werkzeuge
 
-- TBD
+### Erfolgs- und Reviewkriterien
 
-## benoetigte Informationen
+## Architekturentscheidung / ADR
 
-Welche Informationen, Dokumente oder Nachweise braucht der Prozess?
-
-- TBD
-
-## Werkzeuge
-
-Welche Tools unterstuetzen den Prozess?
-
-- TBD
-
-## Risiken und Leitplanken
-
-Welche Risiken muessen vermieden werden?
-
-- TBD
-
-## Definition of Done
-
-Wann ist der Prozess erfolgreich abgeschlossen?
-
-- TBD
-
-## Offene Fragen
-
-- Q-XXX: TBD
+Noch keine – oder Link.

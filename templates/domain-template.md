@@ -1,77 +1,54 @@
-# Domain: Name
+# Domain-Kandidat: Name
 
-Status: Entwurf
-Owner: TBD
-Letzte Aktualisierung: YYYY-MM-DD
+Status: Arbeitsgrundlage
+Verantwortung für den Rahmen: ...
+Workshop-Kreis: ...
 
-## Zweck
+## Warum könnte diese Domain nötig sein?
 
-Warum braucht diese Domain einen klaren Owner?
+Welches dauerhafte, stammweite Problem soll sie lösen?
 
-## Verantwortung
+## Kontext
 
-Wofuer ist die Domain verantwortlich?
+Welche Linien, Projekte oder anderen Domains sind betroffen?
 
-- TBD
+## Beobachtungen
 
-## Nicht verantwortlich
+- ...
 
-Was gehoert ausdruecklich nicht in diese Domain?
+## Spannungsfelder
 
-- TBD
+- fachlicher Standard ↔ lokale Freiheit
+- Verantwortung ↔ verfügbare Kapazität
+- ...
 
-## Entscheidungsrechte
+## Leitfragen
 
-Welche Entscheidungen darf die Domain selbst treffen?
+- Ist das Thema dauerhaft oder eigentlich ein Projekt?
+- Welche Verantwortung und Nicht-Verantwortung braucht die Domain?
+- Welche Entscheidungen und welches Budget gehören zum Mandat?
+- Welche Leistungen bietet sie Linie und Projekten?
+- Wie werden Team, Begleitung und Nachfolge aufgebaut?
+- Woran erkennen wir Gesundheit oder das Ende der Domain?
 
-- TBD
+## Gemeinsame Erkenntnisse
 
-Welche Entscheidungen brauchen SLK oder Hauptstammleitung?
+Noch offen.
 
-- TBD
+## Architekturentwurf
 
-## Schnittstellen
+### Zweck und Ergebnisse
 
-### Teilstaemme
+### Verantwortung und Nicht-Verantwortung
 
-Wie arbeitet die Domain mit den Teilstaemmen zusammen?
+### Entscheidungsrechte und Leitplanken
 
-### Projekte
+### Schnittstellen zu Linie, Projekten und anderen Domains
 
-Wie arbeitet die Domain mit Projektteams zusammen?
+### Team, Begleitung und Nachfolge
 
-### Andere Domains
+### Gesundheitsindikatoren und Review
 
-Welche anderen Domains sind betroffen?
+## Architekturentscheidung / ADR
 
-## Prozesse
-
-Welche Prozesse gehoeren zu dieser Domain?
-
-- TBD
-
-## Werkzeuge
-
-Welche Werkzeuge nutzt oder verantwortet diese Domain?
-
-- TBD
-
-## Gesundheitsindikatoren
-
-Woran erkennen wir, dass die Domain gesund funktioniert?
-
-- TBD
-
-## Risiken
-
-Welche Risiken entstehen, wenn diese Domain unklar oder schlecht gefuehrt ist?
-
-- TBD
-
-## Offene Fragen
-
-- Q-XXX: TBD
-
-## Relevante ADRs
-
-- ADR: TBD
+Noch keine – oder Link.

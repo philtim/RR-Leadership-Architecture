@@ -1,82 +1,59 @@
-# 06 Tools
+# 06 – Werkzeuge
 
-Werkzeuge unterstuetzen die Architektur. Sie ersetzen keine geklaerten Rollen,
-Entscheidungswege oder Prozesse.
+Status: Nachgelagerter Arbeitsbereich
 
-Diese Schicht uebersetzt die vorherigen Schichten in Anforderungen an Tools wie
-RRBase, WhatsApp, Website, Cloud, Bildarchiv oder Inventarsystem.
+## Warum gibt es dieses Kapitel?
 
-## Zweck
+Werkzeuge unterstützen geklärte Verantwortung, Kommunikation, Wissen und
+Prozesse. Sie dürfen ungeklärte Organisation nicht technisch festschreiben.
 
-- Tool-Entscheidungen aus der Architektur ableiten
-- Kommunikationskanaele entlasten
-- Wissen auffindbar machen
-- Prozesse digital unterstuetzen
-- RRBase fachlich sauber ausrichten
+## Kontext
 
-## Grundsatz
+RRBase befindet sich im Aufbau. WhatsApp übernimmt viele verschiedene Zwecke;
+Website, Medienarchiv und Inventarsystem benötigen Klärung. Tool-Anforderungen
+werden erst aus Führungs-, Rollen- und Prozessentscheidungen abgeleitet.
 
-Werkzeuge folgen der Organisation.
+## Beobachtungen
 
-Wenn unklar ist, wer entscheidet, hilft kein Tool. Wenn unklar ist, wer Owner
-eines Prozesses ist, darf RRBase diesen Prozess noch nicht fest verdrahten.
+- Informationen erreichen Eltern nicht immer zuverlässig.
+- WhatsApp ist Austauschkanal, Broadcast, Projektablage und Terminmedium zugleich.
+- Medien liegen teilweise auf privaten Geräten.
+- Materialbestand und Nutzungshinweise sind nicht zentral auffindbar.
+- Neue Tools können für technisch weniger versierte Leitende eine Hürde sein.
 
-## Relevante Werkzeuge
+## Spannungsfelder
 
-| Werkzeug | Moeglicher Zweck | Status |
-|---|---|---|
-| RRBase | Kommunikation, Handbuch, Rollen, Wissen, Logbuchpruefungen, Prozesse | im Aufbau |
-| WhatsApp | kurzfristige Abstimmung und bestehende Gruppen | ueberlastet |
-| Website | externe Information und Sichtbarkeit | veraltet |
-| Cloud / Archiv | Medien, Dokumente, Vorlagen | zu klaeren |
-| Inventarsystem | Materialbestand, Ausleihe, Wartung | zu klaeren |
-| Instagram | Aussenwirkung und Zugehoerigkeit | DSGVO klaeren |
+- zentrale Verlässlichkeit ↔ einfache Nutzung
+- Transparenz ↔ Datenschutz und Zugriffsbegrenzung
+- digitale Effizienz ↔ Teilhabe ohne Technikbarriere
+- ein System ↔ spezialisierte Werkzeuge
 
 ## Leitfragen
 
-- Welches Problem soll das Werkzeug loesen?
+- Welches geklärte Problem soll das Werkzeug lösen?
 - Welche Rolle oder Domain ist Owner?
-- Welche Informationen gehoeren in das Werkzeug?
-- Welche Informationen gehoeren bewusst nicht hinein?
-- Welche Rechte und Rollen braucht das Werkzeug?
-- Welche Prozesse werden unterstuetzt?
-- Welche Risiken entstehen durch das Werkzeug?
-- Was muss offline oder ohne technische Huerden funktionieren?
+- Welche Information ist verbindlich und wie erreicht sie die Zielgruppe?
+- Welche Rollen, Rechte und Datenschutzregeln folgen aus der Architektur?
+- Was muss auch ohne App funktionieren?
+- Welche vorhandenen Kanäle werden dadurch ersetzt oder bewusst beibehalten?
 
-## RRBase Leitplanken
+## Gemeinsame Erkenntnisse
 
-RRBase soll nicht das Organisationsproblem loesen. RRBase soll die geklaerte
-Organisation abbilden.
+Noch offen.
 
-Anforderungen an RRBase entstehen daher aus:
+## Architekturentwurf – Werkzeuglandschaft als Hypothese
 
-- Rollenmodell
-- Entscheidungsmodell
-- Domain-Katalog
-- Prozesskatalog
-- Kommunikationsmodell
-- Wissensmanagement
+| Werkzeug | Möglicher Zweck | Voraussetzung |
+|---|---|---|
+| RRBase | Rollen, Wissen, Kommunikation und Ranger-Prozesse unterstützen | geklärte Rollen und Prozesse |
+| WhatsApp | kurzfristige Abstimmung und soziale Kommunikation | klare Kanalregeln |
+| Website | verlässliche öffentliche Information | Kommunikations-Owner und Inhalte |
+| Medienarchiv | gemeinsame, datenschutzgerechte Medienablage | Medien- und Rechtekonzept |
+| Inventarsystem | Bestand, Ausleihe, Wartung und Dokumentation | Materialprozess und Owner |
+| GitHub | RRLA-Architecture-Workspace und Organisationsgedächtnis | akzeptierte Methodik |
 
-## Ergebnisartefakte
+## Architekturentscheidung / ADR
 
-Empfohlene Dateien:
-
-- `tool-landscape.md`
-- `rrbase-requirements.md`
-- `communication-channels.md`
-- `knowledge-management.md`
-- `media-archive.md`
-
-## Definition of Done
-
-Diese Schicht ist ausreichend bearbeitet, wenn:
-
-- jedes wichtige Werkzeug einem Zweck zugeordnet ist
-- Tool-Owner oder Domain-Owner geklaert sind
-- RRBase-Anforderungen aus Architektur und Prozessen abgeleitet sind
-- WhatsApp-Kanaele entlastet und klarer getrennt werden koennen
-- keine Tool-Idee ohne Owner und Prozess weiterverfolgt wird
-
-## Naechster Schritt
-
-Weiter mit [`07-roadmap`](../07-roadmap/README.md).
+GitHub ist als RRLA-Workspace entschieden. Alle anderen Tool-Entscheidungen
+folgen später aus der Architektur. Siehe
+[`ADR-0003`](../08-decisions/adr-0003-github-als-architecture-workspace.md).

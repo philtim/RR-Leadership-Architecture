@@ -1,129 +1,52 @@
-# 07 Roadmap & Backlog
+# 07 – Roadmap
 
-Die Roadmap uebersetzt die Zielarchitektur in umsetzbare Schritte.
+Die Roadmap beschreibt den Lern- und Entscheidungsweg, nicht die Produktion
+möglichst vieler Dokumente. Geschwindigkeit wird daran gemessen, ob gemeinsames
+Verständnis und handlungsfähige Entscheidungen entstehen.
 
-Sie verhindert, dass alles gleichzeitig gestartet wird.
+## Leitplanken
 
-## Roadmap-Prinzipien
+- Ein Workshop-Zyklus behandelt eine zentrale Frage.
+- Architekturentwürfe folgen auf gemeinsame Erkenntnisse, nicht umgekehrt.
+- Akute Verbesserungen dürfen als Pilot erfolgen, wenn sie dem Zielbild nicht
+  widersprechen.
+- Neue Projekte werden gegen Leitungskapazität und das Gesamtportfolio geprüft.
+- Tool-Arbeit folgt geklärten Rollen und Prozessen.
 
-- Erst Leitplanken, dann Detailprozesse.
-- Erst wenige Pilotbereiche, dann Ausrollen.
-- Erst Rollen klaeren, dann Tools bauen.
-- Akute Schmerzen duerfen geloest werden, aber passend zur Zielarchitektur.
-- Jede Umsetzung braucht einen Owner.
+## Entwicklungsweg
 
-## Initialer Backlog
+```mermaid
+flowchart LR
+    A[0 Workspace konsolidieren] --> B[1 Gemeinsamer SLK-Auftakt]
+    B --> C[2 Überzeugungen und Zielbild]
+    C --> D[3 Führungsphilosophie]
+    D --> E[4 Operating Model und Governance]
+    E --> F[5 Pilot-Domain und Pilot-Projekt]
+    F --> G[6 Prozesse und Werkzeuge ableiten]
+    G --> H[7 Review und nächste Version]
+```
 
-| ID | Thema | Ziel | Prioritaet | Status |
-|---|---|---|---|---|
-| B-001 | Mission & Vision 2035 | Gemeinsames Zielbild fuer die Hauptstammleitung | hoch | offen |
-| B-002 | Leadership Principles | Kultur und Fuehrungsverstaendnis formulieren | hoch | offen |
-| B-003 | Architekturprinzipien | Leitplanken fuer jede spaetere Entscheidung | hoch | offen |
-| B-004 | Rolle Hauptstammleitung | Aufgaben, Nicht-Aufgaben und Nachfolge klaeren | hoch | offen |
-| B-005 | Rolle SLK | SLK vom operativen Entscheider zum Review- und Leitplankengremium entwickeln | hoch | offen |
-| B-006 | Entscheidungsmodell | Klaeren, wer was entscheidet und was nicht mehr in den SLK muss | hoch | offen |
-| B-007 | Meeting-System | Zweck und Rhythmus der Treffen neu ordnen | hoch | offen |
-| B-008 | Domain-Katalog | Fachbereiche und Owner-Typen definieren | mittel | offen |
-| B-009 | Material als Pilot-Domain | Materialprozess, Lagerzugang, Inventar, Beschaffung klaeren | hoch | offen |
-| B-010 | Kommunikation als Pilot-Domain | WhatsApp, Elterninfos, Mitarbeiterinfos und RRBase-Zielbild klaeren | hoch | offen |
-| B-011 | Medien als Pilot-Domain | Foto, Video, Archiv, Instagram und DSGVO-Leitplanken klaeren | mittel | offen |
-| B-012 | RRBase-Anforderungen | Tool-Anforderungen aus Rollen, Domains und Prozessen ableiten | mittel | blockiert durch B-001 bis B-010 |
-| B-013 | SLK Review 0.1 | Ersten Architekturentwurf mit SLK pruefen | hoch | offen |
-| B-014 | Domain-Workshops | Material, Kommunikation und Medien mit Experten ausarbeiten | mittel | offen |
-| B-015 | Pilotphase | 2 bis 3 neue Arbeitsweisen testweise einfuehren | mittel | offen |
+## Phasen und Entscheidungstore
 
-## Vorschlag fuer die ersten Sprints
+| Phase | Ergebnis | Gate für den nächsten Schritt |
+|---|---|---|
+| 0. Workspace | konsistente Methodik, Vorlagen, Workshop-Paket | Hauptstammleitung kann den Prozess erklären |
+| 1. SLK-Auftakt | gemeinsame Beobachtungen und Spannungsfelder | SLK trägt die Arbeitsweise und den nächsten Zyklus mit |
+| 2. Fundament | gemeinsame Aussagen zu Gott, Menschen, Leitung, Wachstum und Zielbild | Widersprüche sind sichtbar; Kernüberzeugungen sind formulierbar |
+| 3. Führungsphilosophie | Prinzipien zu Freiwilligkeit, Macht, Verantwortung und Entwicklung | Prinzipien sind praktisch verständlich und reviewt |
+| 4. Operating Model | Entwurf für Linie, Domains, Projekte, Governance und Entscheidungen | Mandate und Konfliktwege sind pilotierbar |
+| 5. Piloten | eine Pilot-Domain und ein Pilot-Projekt | Lernen ist dokumentiert; Anpassungen sind entschieden |
+| 6. Prozesse & Tools | priorisierte Abläufe und abgeleitete Tool-Anforderungen | Owner, Nutzen und Einführung sind geklärt |
+| 7. Review | RRLA-Version mit Entscheidungen und offenen Fragen | nächster Zyklus priorisiert |
 
-### Sprint 1: Fundament
+## Empfohlener nächster Schritt
 
-Ziel:
+Den ersten SLK-Auftakt mit den Unterlagen unter
+[`01-workshops/01-slk-auftakt`](../01-workshops/01-slk-auftakt/README.md)
+durchführen. Danach nicht sofort das Operating Model entwerfen, sondern zuerst
+die gemeinsamen Überzeugungen und das Zielbild bearbeiten.
 
-- Mission
-- Vision 2035
-- wichtigste Spannungen
-- offene Fragen
+## Backlog
 
-Ergebnis:
-
-- `01-mission/mission.md`
-- `01-mission/vision-2035.md`
-
-### Sprint 2: Kultur und Prinzipien
-
-Ziel:
-
-- Leadership Principles
-- Architekturprinzipien
-- erste ADRs
-
-Ergebnis:
-
-- `02-culture/leadership-principles.md`
-- `02-culture/architecture-principles.md`
-- ADR zu Single Source of Truth
-
-### Sprint 3: Operating Model 0.1
-
-Ziel:
-
-- Rolle Hauptstammleitung
-- Rolle SLK
-- Entscheidungsmodell
-- Meeting-System
-
-Ergebnis:
-
-- `03-operating-model/roles.md`
-- `03-operating-model/decision-model.md`
-- `03-operating-model/meeting-system.md`
-
-### Sprint 4: SLK Review
-
-Ziel:
-
-- Zielarchitektur 0.1 pruefen
-- Luecken und Risiken sammeln
-- Commit fuer weitere Ausarbeitung gewinnen
-
-Ergebnis:
-
-- Review-Fragen
-- Feedback-Liste
-- Anpassungen am Operating Model
-
-### Sprint 5: Pilot-Domains
-
-Ziel:
-
-- Material
-- Kommunikation
-- Medien oder Ausbildung
-
-Ergebnis:
-
-- Domain-Steckbriefe
-- erste Prozesse
-- konkrete Pilotmassnahmen
-
-## Umsetzung nach Jahren
-
-### 2026
-
-- Zielarchitektur 0.1 erstellen
-- SLK Review durchfuehren
-- Entscheidungsmodell pilotieren
-- Meeting-System vereinfachen
-- Material und Kommunikation als Pilot-Domains starten
-
-### 2027
-
-- Domain-Modell ausweiten
-- Prozesse fuer Material, Kommunikation, Events und Ausbildung stabilisieren
-- RRBase-Anforderungen aus der Architektur ableiten
-- neue Leiterentwicklung sichtbarer machen
-
-### 2028
-
-- Nachfolge- und Multiplikationsmodell staerken
-- RRLA als gelebtes Betriebssystem etablieren
-- Review-Zyklus fuer Architektur einfuehren
+Prioritäten, offene Architekturfragen und Hypothesen stehen in
+[`backlog.md`](backlog.md).

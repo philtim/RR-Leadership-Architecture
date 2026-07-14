@@ -2,64 +2,49 @@
 
 Status: Entwurf
 Datum: YYYY-MM-DD
-Owner: TBD
+Entscheidungsverantwortung: ...
+Beteiligte Reviews: ...
 
 ## Kontext
 
-Welche Situation, Spannung oder offene Frage macht diese Entscheidung noetig?
+Welche Situation, Erkenntnis oder Spannung macht eine Entscheidung nötig?
 
 ## Entscheidung
 
-Was wird entschieden?
+Was wird entschieden? Was ausdrücklich nicht?
 
-## Optionen
+## Betrachtete Optionen
 
 ### Option A
 
-Kurzbeschreibung.
-
-Vorteile:
-
-- TBD
-
-Nachteile:
-
-- TBD
+- Vorteile:
+- Nachteile:
 
 ### Option B
 
-Kurzbeschreibung.
+- Vorteile:
+- Nachteile:
 
-Vorteile:
+## Begründung
 
-- TBD
-
-Nachteile:
-
-- TBD
-
-## Begruendung
-
-Warum wird diese Option gewaehlt?
+Warum wurde diese Option gewählt? Auf welche Workshop-Erkenntnisse oder
+Architekturprinzipien stützt sie sich?
 
 ## Konsequenzen
 
-Was wird dadurch besser?
+Was wird besser, was schwieriger, was muss beendet oder geändert werden?
 
-- TBD
+## Betroffene Bereiche
 
-Was wird dadurch schwieriger oder muss bewusst getragen werden?
+- Rollen / Gremien:
+- Domains / Projekte:
+- Prozesse / Werkzeuge:
+- andere ADRs:
 
-- TBD
+## Umsetzung oder Pilot
 
-## Auswirkungen
-
-Welche Dokumente, Rollen, Domains, Prozesse oder Tools sind betroffen?
-
-- TBD
+Wer tut was bis wann? Gibt es einen befristeten Pilot?
 
 ## Review
 
-Wann und durch wen wird die Entscheidung ueberprueft?
-
-- TBD
+Wann, durch wen und anhand welcher Beobachtungen wird die Entscheidung geprüft?

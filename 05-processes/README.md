@@ -1,83 +1,62 @@
-# 05 Processes
+# 05 – Prozesse
 
-Prozesse beschreiben wiederholbare Ablaeufe.
+Status: Nachgelagerter Arbeitsbereich
 
-Ein Prozess wird erst dokumentiert, wenn klar ist, welche Domain oder Rolle ihn
-besitzt. Sonst entstehen Regeln ohne Owner.
+## Warum gibt es dieses Kapitel?
 
-## Zweck
+Prozesse sichern wiederholbare, sicherheitsrelevante oder wissensintensive
+Abläufe. Sie werden erst konkretisiert, wenn Verantwortung, Mandat und gewünschte
+Ergebnisse geklärt sind.
 
-- wiederkehrende Arbeit vereinfachen
-- Wissen aus Koepfen in Systeme bringen
-- Verantwortung klaeren
-- Qualitaet und Sicherheit erhoehen
-- RRBase spaeter gezielt speisen
+## Kontext
 
-## Prozessarten
+Wissen steckt teilweise in Köpfen. Gleichzeitig würde zu frühe
+Prozessdokumentation aktuelle Unklarheit nur festschreiben. Deshalb folgen
+Prozesse dem Operating Model und den Domains.
 
-### Fuehrungsprozesse
+## Beobachtungen
 
-Beispiele:
+- Materialausgabe, Beschaffung, Elternkommunikation und Wissenssicherung sind
+  noch nicht durchgängig verlässlich.
+- Sicherheits- und Kindeswohlprozesse benötigen besondere Klarheit.
+- „Camp planen“ ist kein einzelner operativer Prozess, sondern ein Projekt mit
+  mehreren Prozessen.
 
-- neuer Mitarbeiter startet
-- Juniorleiter wird Teamleiter
-- Leiterfeedback
-- Nachfolgeplanung
-- Konfliktklaerung
+## Spannungsfelder
 
-### Operative Prozesse
+- Verlässlichkeit ↔ ehrenamtliche Einfachheit
+- Standardisierung ↔ situationsgerechte Entscheidung
+- Dokumentation ↔ tatsächliche Nutzung
+- Sicherheit ↔ unnötige Bürokratie
 
-Beispiele:
+## Leitfragen
 
-- Material ausleihen
-- Material bestellen
-- Camp planen
-- Raum fuer Freitag reservieren
-- Elterninformation versenden
+- Welches Risiko oder wiederkehrende Problem rechtfertigt einen Prozess?
+- Wer ist Owner und darf den Ablauf verändern?
+- Was ist der kleinstmögliche verlässliche Ablauf?
+- Welche Entscheidungspunkte benötigen ein Mandat?
+- Was muss für neue Leitende auffindbar sein?
+- Was kann ein Werkzeug unterstützen, ohne den Prozess zu bestimmen?
 
-### Schutz- und Sicherheitsprozesse
+## Gemeinsame Erkenntnisse
 
-Beispiele:
+Noch offen.
 
-- Kindeswohl-Vorfall melden
-- medizinischer Notfall
-- Sicherheitsbriefing fuer Aktionen
-- Umgang mit Fotos und Einwilligungen
+## Architekturentwurf – spätere Prozesskandidaten
 
-## Leitfragen pro Prozess
+- neue Mitarbeitende aufnehmen und begleiten
+- Verantwortung anbieten, erproben und beauftragen
+- Projekt initiieren und im Portfolio priorisieren
+- Material ausgeben, zurücknehmen, warten und beschaffen
+- Elterninformationen verlässlich versenden
+- Medien speichern, freigeben und datenschutzgerecht nutzen
+- Sicherheits- oder Kindeswohlvorfälle eskalieren
+- Projektabschluss, Lessons Learned und Leiterreflexion durchführen
 
-- Was loest diesen Prozess aus?
-- Wer ist Owner?
-- Wer fuehrt aus?
-- Wer muss informiert werden?
-- Welche Entscheidungspunkte gibt es?
-- Welche Dokumente oder Werkzeuge werden benoetigt?
-- Welche Risiken reduziert der Prozess?
-- Wie einfach ist der Prozess fuer Ehrenamtliche?
+## Architekturentscheidung / ADR
 
-## Ergebnisartefakte
+Keine. Prozesse werden erst nach Klärung ihres Owners entwickelt und pilotiert.
 
-Empfohlene Dateien:
+## Vorlage
 
-- `process-catalog.md`
-- `new-leader-onboarding.md`
-- `material-checkout.md`
-- `material-procurement.md`
-- `event-planning.md`
-- `parent-communication.md`
-
-Nutze `templates/process-template.md`.
-
-## Definition of Done
-
-Diese Schicht ist ausreichend bearbeitet, wenn:
-
-- die wichtigsten Kernprozesse priorisiert sind
-- jeder Prozess einen Owner hat
-- kritische Sicherheits- und Kindeswohlprozesse erkennbar sind
-- erste Prozesse so beschrieben sind, dass neue Leiter sie anwenden koennen
-- Tool-Anforderungen fuer RRBase abgeleitet werden koennen
-
-## Naechster Schritt
-
-Weiter mit [`06-tools`](../06-tools/README.md).
+[`templates/process-template.md`](../templates/process-template.md)

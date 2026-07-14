@@ -1,90 +1,153 @@
-# 03 Operating Model
+# 03 – Operating Model
 
-Diese Schicht beschreibt, wie der Stamm gefuehrt wird.
+Status: Arbeitsgrundlage; Zielmodell noch nicht beschlossen
+Verantwortung: Hauptstammleitung für den Rahmen, SLK für Review und Mitentwicklung
 
-Hier werden Rollen, Gremien, Entscheidungswege, Meetings und Eskalationswege
-definiert. Erst jetzt entsteht ein konkretes Organisationsmodell.
+## Warum gibt es dieses Kapitel?
 
-## Zweck
+Das Operating Model beschreibt, wie unterschiedliche Formen von Verantwortung
+zusammenwirken. Es verhindert, dass Linie, Fachthemen, Projekte und Governance
+in einem Gremium vermischt werden.
 
-- Hauptstammleitung entlasten
-- SLK neu ausrichten
-- Verantwortung und Entscheidung koppeln
-- Teilstaemme, Domains und Projekte zusammenfuehren
-- Meeting-System vereinfachen
+## Kontext
+
+Heute tragen Teilstämme und Teams die kontinuierliche Arbeit. Gleichzeitig gibt
+es stammweite Fachthemen und große, zeitlich begrenzte Veranstaltungen. Viele
+dieser Themen werden im SLK zusammengeführt, obwohl sie unterschiedliche
+Entscheidungslogiken brauchen.
+
+## Beobachtungen
+
+- Die Linienorganisation ist etabliert, stammweite Fachverantwortung dagegen
+  nur teilweise.
+- Veranstaltungen werden wiederkehrend durchgeführt, aber nicht durchgängig als
+  temporäre Projekte mit eigenem Mandat geführt.
+- Der SLK behandelt strategische, personelle, fachliche und operative Themen im
+  selben Rhythmus.
+- Gesamt-Mitarbeiterrunden werden teilweise für Planung und Personalgewinnung
+  genutzt, obwohl nicht alle Teilnehmenden betroffen sind.
+- Verantwortung und Entscheidungsrecht sind nicht überall deckungsgleich.
+
+## Spannungsfelder
+
+- Einheit ↔ dezentrale Verantwortung
+- fachliche Standards ↔ Freiheit der Teilstämme
+- Beteiligung ↔ klare Mandate
+- stabile Linie ↔ temporäre Projekte
+- Gesamtüberblick ↔ operative Geschwindigkeit
+- Vertrauen ↔ Governance
 
 ## Leitfragen
 
-### Hauptstammleitung
+### Linie
 
-- Was ist die eigentliche Aufgabe der Hauptstammleitung?
-- Welche operativen Themen gehoeren nicht mehr dorthin?
-- Welche Entscheidungen muessen dort bleiben?
-- Wie wird Nachfolge vorbereitet?
-- Wie reduzieren wir das Klumpenrisiko Ehepaar?
+- Welche Entscheidungen gehören zu Hauptstammleitung, SLK, Teilstämmen und
+  Teams?
+- Welche Entscheidungen sollen ohne Hauptstammleitung möglich sein?
+- Welche Rolle hat der SLK außerhalb des RRLA-Architekturprozesses?
 
-### SLK
+### Fachorganisation
 
-- Ist der SLK Entscheidungsgremium, Review Board oder beides?
-- Welche Entscheidungen gehoeren zwingend in den SLK?
-- Welche Themen werden nur informiert?
-- Wie geht der SLK mit Widerspruch um?
-- Wie wird "disagree and commit" gelebt?
+- Welche dauerhaften Themen brauchen stammweite fachliche Verantwortung?
+- Wie werden Konflikte zwischen Domain und Teilstamm geklärt?
+- Welche Standards sind verbindlich, welche Empfehlungen?
 
-### Teilstaemme
+### Projektorganisation
 
-- Welche Verantwortung haben Stammleiter und Stammwarte?
-- Wo entscheiden Teilstaemme eigenstaendig?
-- Wo muessen sie gemeinsame Leitplanken beachten?
+- Ab welcher Größe braucht ein Vorhaben eine Projektleitung, Budget und
+  Projektauftrag?
+- Wie greifen Projektrollen auf Standards und Ressourcen der Domains zu?
+- Wer startet, stoppt oder priorisiert ein Projekt?
 
-### Domains
+### Governance
 
-- Welche fachlichen Bereiche brauchen Owner?
-- Wie greifen Domain-Owner und Teilstammleiter ineinander?
-- Wer entscheidet bei Konflikten?
+- Welche Leitplanken sind unverhandelbar?
+- Wer setzt Budgetrahmen und Sicherheitsvorgaben?
+- Wie wird Rechenschaft schlank, aber verlässlich gestaltet?
+- Wie wird bei Ziel- oder Mandatskonflikten eskaliert?
 
-### Meetings
+## Gemeinsame Erkenntnisse
 
-- Welches Meeting hat welchen Zweck?
-- Welche Meetings dienen Zuruestung?
-- Welche Meetings dienen Entscheidung?
-- Welche Meetings dienen Projektarbeit?
-- Was muss nicht mehr im Gesamt-Mitarbeitertreffen stattfinden?
+Wird nach den Operating-Model-Workshops ergänzt.
 
-## Zielbild in Kurzform
+## Architekturentwurf – vier zusammenwirkende Perspektiven
 
 ```mermaid
-flowchart TD
-    HSL[Hauptstammleitung] --> SLK[SLK als Leitplanken- und Review-Gremium]
-    HSL --> DO[Domain Owner]
-    SLK --> TS[Teilstammleitungen]
-    DO --> D1[Material]
-    DO --> D2[Kommunikation]
-    DO --> D3[Medien]
-    DO --> D4[Ausbildung]
-    DO --> D5[IT / RRBase]
-    TS --> Teams[Teams und Teamleiter]
+flowchart TB
+    G[Governance: Mission, Leitplanken, Mandate, Budgets, Sicherheit]
+    G --> L[Linienorganisation: Hauptstammleitung, SLK, Teilstämme, Teams]
+    G --> F[Fachorganisation: dauerhafte stammweite Domains]
+    G --> P[Projektorganisation: zeitlich begrenzte Vorhaben]
+    L <--> F
+    L <--> P
+    F <--> P
 ```
 
-## Ergebnisartefakte
+### 1. Linienorganisation
 
-Empfohlene Dateien:
+Sichert kontinuierliche Führung, geistliche Verantwortung und die Arbeit mit
+den Teilnehmenden:
 
-- `roles.md`
-- `decision-model.md`
-- `meeting-system.md`
-- `governance.md`
+- Hauptstammleitung
+- SLK
+- Teilstämme
+- Teams
 
-## Definition of Done
+### 2. Fachorganisation
 
-Diese Schicht ist ausreichend bearbeitet, wenn:
+Bündelt dauerhafte stammweite Kompetenz und Standards, zum Beispiel Material,
+Kommunikation, Medien, Ausbildung, IT/RRBase oder Finanzen. Domains unterstützen
+Linie und Projekte; sie ersetzen die Teilstämme nicht.
 
-- Hauptstammleitung, SLK, Teilstaemme, Domains und Projekte klar unterschieden sind
-- Entscheidungsrechte beschrieben sind
-- Meeting-Zwecke klar getrennt sind
-- Konfliktregel zwischen Linie, Domain und Projekt existiert
-- notwendige ADRs angelegt sind
+### 3. Projektorganisation
 
-## Naechster Schritt
+Führt zeitlich begrenzte Vorhaben mit Start, Ende, Ziel, Budget, Mandat und
+Projektleitung. Dazu gehören Sommercamp, Weihnachtsmarkt,
+Mitarbeiterwochenende und Großaktionen.
 
-Weiter mit [`04-domains`](../04-domains/README.md).
+### 4. Governance
+
+Definiert den zulässigen Entscheidungsraum:
+
+- Mission, Werte und geistliche Ausrichtung
+- Kindeswohl, Sicherheit und Integrität
+- Mandate und Entscheidungsbefugnisse
+- Budgetrahmen und Rechenschaft
+- Eskalations- und Konfliktwege
+
+Governance trifft nicht jede Entscheidung. Sie macht verantwortliche,
+dezentrale Entscheidungen sicher möglich.
+
+### Gesamt-Mitarbeiterrunde – Arbeitshypothese
+
+Die Gesamt-Mitarbeiterrunde dient künftig vor allem:
+
+- geistlicher Zurüstung und Gebet,
+- Vision und Kultur,
+- gemeinsamem Lernen,
+- wichtigen stammweiten Informationen,
+- kurzen Statusupdates aus Projekten.
+
+Operative Planung und Personalbesetzung finden in den jeweiligen Linien,
+Domains oder Projekten statt.
+
+### Entscheidungsprinzipien – Arbeitshypothesen
+
+- Verantwortung und Entscheidung gehören zusammen.
+- Entscheidungen werden auf der niedrigstmöglichen **geeigneten** Ebene
+  getroffen.
+- Die geeignete Ebene besitzt Kompetenz, Mandat, nötige Informationen und trägt
+  die Auswirkungen.
+- Höhere Ebenen setzen Leitplanken, lösen Konflikte oder entscheiden nur bei
+  stammweiter Tragweite.
+
+## Architekturentscheidung / ADR
+
+Noch keine abschließende Entscheidung über das Operating Model. Das
+Vier-Perspektiven-Modell und die Rolle der Gesamt-Mitarbeiterrunde werden im SLK
+geprüft.
+
+## Vertiefung
+
+- [`project-and-portfolio.md`](project-and-portfolio.md)
+- [`Domains`](../04-domains/README.md)

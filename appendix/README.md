@@ -1,19 +1,12 @@
-# Appendix
+# Anhang
 
-Der Appendix enthaelt Nachschlagewerke, Referenzen und Material, das wichtig
-ist, aber nicht direkt Teil der Zielarchitektur ist.
+Der Anhang enthält gezielte Nachschlagewerke, die den Architekturprozess
+unterstützen, aber kein eigenes Arbeitskapitel bilden.
 
 ## Inhalte
 
-- [`GLOSSARY.md`](GLOSSARY.md): gemeinsame Begriffe
-- spaeter: Referenzen zu Royal Rangers Deutschland
-- spaeter: externe Quellen
-- spaeter: historische Entscheidungen oder Kontextmaterial
+- [`GLOSSARY.md`](GLOSSARY.md): gemeinsame Begriffe und Abgrenzungen
 
-## Regel
-
-Der Appendix ist kein Sammelordner fuer alles.
-
-Wenn ein Inhalt eine Entscheidung beschreibt, gehoert er nach `08-adr`.
-Wenn ein Inhalt Umsetzung beschreibt, gehoert er nach `07-roadmap` oder in den
-passenden Prozessbereich.
+Später können hier geprüfte Referenzen zu Royal Rangers Deutschland oder
+historischem Kontext ergänzt werden. Rohnotizen, operative To-dos und
+Entscheidungen gehören nicht in den Anhang.

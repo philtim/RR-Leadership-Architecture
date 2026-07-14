@@ -1,121 +1,114 @@
-# Zusammenarbeit an RRLA
+# Zusammenarbeit an der RRLA
 
-Dieses Repository ist die Single Source of Truth fuer die Royal Rangers
-Leadership Architecture.
+Die RRLA entsteht gemeinsam, aber nicht ungeordnet. Dieses Dokument klärt
+Verantwortung, Arbeitsfluss und Qualitätsregeln.
 
-Es soll einfach genug bleiben, dass es genutzt wird, und klar genug, dass
-wichtige Entscheidungen spaeter nachvollziehbar sind.
+## Rollen im Architekturprozess
 
-## Rollen in der Erarbeitung
+### Hauptstammleitung: Architekturverantwortung
 
-### Hauptstammleitung
+Die Hauptstammleitung verantwortet:
 
-Die Hauptstammleitung haelt das Big Picture.
+- Methodik und Reihenfolge
+- Big Picture und Konsistenz
+- Templates und Visualisierungen
+- Moderation und Versionierung
+- Vorbereitung von Arbeitsrahmen und Leitfragen
+- Sicherung von Entscheidungen und Konsequenzen
 
-Aufgaben:
+Sie ist Architektin des Prozesses, nicht alleinige Autorin der Inhalte.
 
-- Zielarchitektur entwerfen
-- Spannungen zwischen Bereichen erkennen
-- Kultur und Leitplanken schuetzen
-- Entscheidungen vorbereiten
-- SLK-Feedback einarbeiten
-- Architektur konsistent halten
+### SLK: Architecture Review Board und Inhaltsentwicklung
 
-### SLK
+Der SLK:
 
-Der SLK ist Architecture Review Board, nicht Redaktionskreis fuer jedes Detail.
+- prüft, ob Rahmen, Sprache und Reihenfolge praxistauglich sind,
+- benennt blinde Flecken und Auswirkungen,
+- entwickelt Vision, Kultur, Führungsverständnis und Modelle in Workshops mit,
+- unterscheidet Beratung, Entscheidung und Information,
+- trägt getroffene Entscheidungen nach außen mit.
 
-Aufgaben:
+### Fachleute und Betroffene
 
-- Entwuerfe pruefen
-- blinde Flecken benennen
-- praktische Risiken sichtbar machen
-- Leitplanken bestaetigen
-- Entscheidungen mittragen
+Sie werden hinzugezogen, wenn Erfahrung aus einer Domain, einem Projekt oder
+einem Prozess benötigt wird. Wer betroffen ist, soll gehört werden; wer das
+Mandat trägt, entscheidet innerhalb der vereinbarten Leitplanken.
 
-### Domain-Experten
+## Arbeitsfluss
 
-Domain-Experten arbeiten konkrete Bereiche aus.
+1. **Beobachtung:** Was ist konkret wahrnehmbar?
+2. **Spannungsfeld:** Welche berechtigten Ziele stehen miteinander in Spannung?
+3. **Leitfrage:** Was müssen wir verstehen oder entscheiden?
+4. **Workshop:** Welche Perspektiven und Erkenntnisse entstehen gemeinsam?
+5. **Entwurf:** Welche Architektur könnte die Erkenntnisse tragen?
+6. **Entscheidung:** Wer entscheidet was, warum und mit welchen Konsequenzen?
+7. **Pilot und Review:** Bewährt sich die Entscheidung in der Praxis?
 
-Beispiele:
+Kein Schritt wird nur deshalb übersprungen, weil bereits eine bevorzugte Lösung
+existiert.
 
-- Material
-- Kommunikation
-- Medien
-- Finanzen
-- Ausbildung
-- Veranstaltungen
-- IT / RRBase
+## Sprachliche Trennung
 
-Sie entscheiden nicht das Gesamtmodell, sondern gestalten ihren Bereich innerhalb
-der gemeinsamen Architektur.
+| Begriff | Bedeutung | Beispiel |
+|---|---|---|
+| Tatsache | überprüfbare Information | Der SLK hat 13 Mitglieder. |
+| Beobachtung | wertungsfreie Wahrnehmung | Operative Themen stehen regelmäßig auf der SLK-Agenda. |
+| Deutung | mögliche Erklärung | Unklare Mandate könnten operative Rückfragen fördern. |
+| Hypothese | bewusst zu prüfende Annahme | Domain-Owner könnten den SLK entlasten. |
+| Entwurf | zusammenhängender Lösungsvorschlag | Aufgaben und Entscheidungsräume einer Domain sind skizziert. |
+| Entscheidung | autorisierte Festlegung | Ein ADR nennt Mandat, Begründung und Konsequenzen. |
 
-## Arbeitsmodus
+## Statuswerte
 
-Wir arbeiten iterativ:
+- `Arbeitsgrundlage`: vorbereitet für Diskussion oder Workshop
+- `In Arbeit`: wird gemeinsam bearbeitet
+- `Entwurf`: erste zusammenhängende Architektur liegt vor
+- `In Review`: zuständiger Kreis prüft den Entwurf
+- `Akzeptiert`: autorisierte Entscheidung
+- `Pilot`: wird befristet erprobt
+- `Eingeführt`: ist gelebte Arbeitsweise
+- `Ersetzt`: durch eine neuere Entscheidung abgelöst
+- `Verworfen`: bewusst nicht weiterverfolgt
 
-- `v0.1`: erster Entwurf der Hauptstammleitung
-- `v0.2`: Review durch SLK
-- `v0.3`: Schaerfung mit Domain-Experten
-- `v1.0`: eingefuehrte und gelebte Version
+## Dokumente erstellen oder ändern
 
-Eine Datei muss nicht perfekt sein, um wertvoll zu sein. Sie muss klar zeigen,
-was bereits entschieden ist und was noch offen ist.
+- Für Arbeitsdokumente
+  [`templates/working-document-template.md`](templates/working-document-template.md)
+  verwenden.
+- Für Workshops
+  [`templates/workshop-template.md`](templates/workshop-template.md) verwenden.
+- Beobachtungen und Antworten nicht vermischen.
+- Gemeinsame Erkenntnisse erst nach dem Workshop eintragen.
+- Entscheidungen mit einem ADR verlinken.
+- Auswirkungen auf andere Kapitel und offene Fragen benennen.
+- Klare deutsche Sprache verwenden; Fachbegriffe im
+  [`Glossar`](appendix/GLOSSARY.md) erklären.
 
-## Statusbegriffe
+## Wann ein ADR nötig ist
 
-Nutze diese Statuswerte einheitlich:
+Ein ADR ist sinnvoll, wenn eine Entscheidung:
 
-- `Entwurf`: Gedanke ist formuliert, aber noch nicht geprueft.
-- `In Review`: Entwurf liegt beim SLK oder bei Domain-Experten.
-- `Akzeptiert`: Entscheidung oder Inhalt ist beschlossen.
-- `Pilot`: Wird testweise angewendet.
-- `Eingefuehrt`: Ist offiziell Teil der Arbeitsweise.
-- `Verworfen`: Wurde bewusst nicht weiterverfolgt.
+- Architekturprozess oder Zuständigkeiten verändert,
+- Rollen oder Entscheidungsrechte festlegt,
+- Linie, Fachorganisation, Projekte oder Governance verändert,
+- ein dauerhaftes Prinzip verbindlich macht,
+- eine andere plausible Option ausschließt,
+- später ohne ihren Kontext missverstanden werden könnte.
 
-## Schreibregeln
+Workshop-Erkenntnisse sind noch kein ADR. Nutze
+[`templates/adr-template.md`](templates/adr-template.md), sobald Mandat und
+Entscheidung klar sind.
 
-- Kurz, klar, konkret.
-- Keine Management-Floskeln.
-- Keine Loesung ohne erklaertes Warum.
-- Unterscheide Beobachtung, Hypothese und Entscheidung.
-- Verlinke relevante ADRs und offene Fragen.
-- Formuliere so, dass neue Leiter es verstehen.
+## GitHub ohne Zugangshürde
 
-## Wann ein ADR noetig ist
+Nicht jedes SLK-Mitglied muss GitHub bedienen. Workshops dürfen analog oder in
+vertrauten Werkzeugen stattfinden. Die Architekturverantwortlichen überführen
+Ergebnisse anschließend transparent in dieses Repository und geben sie zum
+Gegenlesen zurück.
 
-Ein Architecture Decision Record ist noetig, wenn eine Entscheidung:
+## Dateinamen und Links
 
-- Rollen oder Verantwortung veraendert
-- Entscheidungsrechte veraendert
-- Meetings oder Gremien veraendert
-- eine Domain einfuehrt oder abschafft
-- ein Werkzeug wie RRBase strukturell praegt
-- spaeter erklaert werden koennen muss
-
-Nutze dafuer `templates/adr-template.md`.
-
-## Umgang mit offenen Fragen
-
-Offene Fragen gehoeren nach `OPEN-QUESTIONS.md`.
-
-Eine Frage wird nicht geloescht. Sie wird auf `beantwortet` gesetzt und mit dem
-Dokument oder ADR verlinkt, in dem die Antwort steht.
-
-## Dateibenennung
-
-Markdown-Dateien werden klein geschrieben und mit Bindestrichen getrennt.
-
-Beispiele:
-
-- `vision-2035.md`
-- `leadership-principles.md`
-- `material.md`
-- `adr-0001-single-source-of-truth.md`
-
-## Mermaid
-
-Diagramme werden als Mermaid direkt in Markdown gepflegt.
-
-Diagramme sollen Klaerung schaffen, nicht beeindrucken. Wenn ein Text einfacher
-ist als ein Diagramm, gewinnt der Text.
+- Dateinamen: klein, deutsch oder etablierter Fachbegriff, mit Bindestrichen.
+- Relative Markdown-Links verwenden.
+- Mermaid nur einsetzen, wenn Beziehungen dadurch verständlicher werden.
+- Keine parallelen Ablagen mit konkurrierenden „finalen“ Versionen anlegen.

@@ -1,85 +1,101 @@
 # Royal Rangers Leadership Architecture (RRLA)
 
-RRLA ist das Leadership Operating System fuer unseren Royal Rangers Stamm.
+Die RRLA ist kein fertiges Handbuch und kein Regelwerk. Sie ist ein gemeinsamer
+Architektur- und Denkprozess: Wir entwickeln eine gemeinsame Sprache dafür, wie
+wir über Gott, Menschen, Leitung, Wachstum, Verantwortung und Entscheidungen
+sprechen – und leiten daraus schrittweise eine tragfähige Leitungsarchitektur ab.
 
-Es beschreibt nicht nur eine Organisationsstruktur, sondern die Art, wie wir
-Vision, Kultur, Verantwortung, Entscheidungen, Bereiche, Prozesse und Werkzeuge
-so ordnen, dass der Stamm langfristig gesund wachsen kann.
+> Die RRLA gibt Orientierung, nicht Kontrolle.
 
-## Ziel
+## Wozu dieses Repository dient
 
-Wir entwickeln eine Leitungsarchitektur, die den Stamm fuer die naechsten
-10 bis 15 Jahre traegt und Wachstum auf 500+ Teilnehmer und 100+ Mitarbeiter
-ermoeglicht, ohne dass die Hauptstammleitung zum Flaschenhals wird.
+GitHub ist der **Architecture Workspace** und das **Organisationsgedächtnis** der
+RRLA. Hier werden Arbeitsgrundlagen, Beobachtungen, Leitfragen,
+Workshop-Erkenntnisse, Entwürfe, Entscheidungen und deren Hintergründe
+nachvollziehbar versioniert.
 
-Das Ziel ist kein perfektes Handbuch, sondern ein lebendiges System, das neue
-Leiter verstehen laesst:
+Das Repository ist nicht die fertige Antwort. Es schafft einen belastbaren
+Rahmen, in dem Antworten gemeinsam entstehen können.
 
-- warum wir Dinge tun
-- wie Entscheidungen entstehen
-- wer Verantwortung traegt
-- welche Kultur wir schuetzen
-- welche Werkzeuge uns dienen
+## So entsteht die RRLA
 
-## Einstieg
+```mermaid
+flowchart LR
+    A[Beobachten] --> B[Spannungen benennen]
+    B --> C[Leitfragen stellen]
+    C --> D[Im SLK arbeiten]
+    D --> E[Erkenntnisse sichern]
+    E --> F[Architekturentwurf]
+    F --> G[Entscheiden und begründen]
+    G --> H[Pilotieren und lernen]
+    H --> A
+```
 
-Startet hier:
+Die Hauptstammleitung verantwortet Methodik, Big Picture, Konsistenz,
+Reihenfolge, Templates, Visualisierungen und Versionierung. Der SLK wirkt als
+Architecture Review Board, prüft auch den Rahmen und entwickelt die Inhalte in
+Workshops mit. Fachleute und weitere Betroffene werden passend zum Thema
+einbezogen.
 
-1. [`START-HERE.md`](START-HERE.md) lesen.
-2. [`00-introduction/README.md`](00-introduction/README.md) durcharbeiten.
-3. Mit [`01-mission/README.md`](01-mission/README.md) beginnen.
-4. Offene Punkte in [`OPEN-QUESTIONS.md`](OPEN-QUESTIONS.md) festhalten.
-5. Wichtige Entscheidungen als ADR in [`08-adr`](08-adr/README.md) dokumentieren.
+## Kernmodell
 
-## Architektur-Schichten
+Die zentrale Leitfrage lautet:
 
-Wir arbeiten bewusst von oben nach unten. Werkzeuge wie RRBase folgen der
-Architektur, nicht umgekehrt.
+> **Was glauben wir über Gott, Menschen, Leitung und Wachstum – und welche
+> Konsequenzen hat das für die Art, wie wir unseren Stamm führen?**
+
+Aus den gemeinsamen Antworten entwickeln sich Führungsphilosophie, Governance,
+Operating Model, Domains, Prozesse, Werkzeuge und Roadmap.
 
 ```mermaid
 flowchart TD
-    A[Mission] --> B[Vision]
-    B --> C[Kultur]
-    C --> D[Architekturprinzipien]
-    D --> E[Operating Model]
-    E --> F[Domains]
-    F --> G[Prozesse]
-    G --> H[Werkzeuge]
-    H --> I[Roadmap]
+    K[Überzeugungen über Gott, Menschen, Leitung und Wachstum]
+    K --> L[Führungsphilosophie und Kultur]
+    L --> A[Architekturprinzipien und Governance]
+    A --> O[Operating Model]
+    O --> D[Domains und Projekte]
+    D --> P[Prozesse]
+    P --> T[Werkzeuge wie RRBase]
+    O --> R[Roadmap und Piloten]
 ```
 
 ## Repository-Struktur
 
-| Bereich | Zweck | Art |
-|---|---|---|
-| [`00-introduction`](00-introduction/README.md) | Kontext, Arbeitsweise, Ist-Analyse | Einstieg und Diagnose |
-| [`01-mission`](01-mission/README.md) | Mission und Vision 2035 | Zielarchitektur |
-| [`02-culture`](02-culture/README.md) | Kultur, Leadership Principles, Architekturprinzipien | Zielarchitektur |
-| [`03-operating-model`](03-operating-model/README.md) | Rollen, Gremien, Entscheidungswege, Meetings | Zielarchitektur |
-| [`04-domains`](04-domains/README.md) | Fachliche Verantwortungsbereiche und Owner | Zielarchitektur |
-| [`05-processes`](05-processes/README.md) | Wiederholbare Kernprozesse | Zielarchitektur |
-| [`06-tools`](06-tools/README.md) | RRBase, WhatsApp, Website, Cloud, Inventar und weitere Werkzeuge | Zielarchitektur |
-| [`07-roadmap`](07-roadmap/README.md) | Backlog, Sprints, Umsetzung | Umsetzung |
-| [`08-adr`](08-adr/README.md) | Architecture Decision Records | Entscheidungen |
-| [`templates`](templates/README.md) | Einheitliche Vorlagen | Arbeitsmittel |
-| [`appendix`](appendix/README.md) | Glossar, Referenzen, Anhaenge | Nachschlagewerk |
+| Bereich | Zweck |
+|---|---|
+| [`START-HERE.md`](START-HERE.md) | Konkreter Einstieg für die Hauptstammleitung |
+| [`00-foundation`](00-foundation/README.md) | Präambel, Ausgangslage, Methodik und Architekturprozess |
+| [`01-workshops`](01-workshops/README.md) | Workshop-Fahrplan und Arbeitsunterlagen, beginnend mit dem SLK-Auftakt |
+| [`02-leadership-philosophy`](02-leadership-philosophy/README.md) | Menschenbild, Verantwortung und Leiterentwicklung als Arbeitsfeld |
+| [`03-operating-model`](03-operating-model/README.md) | Linie, Fachorganisation, Projekte, Governance und Portfoliosteuerung |
+| [`04-domains`](04-domains/README.md) | Dauerhafte fachliche Verantwortungsbereiche |
+| [`05-processes`](05-processes/README.md) | Wiederholbare Abläufe nach Klärung von Verantwortung und Mandat |
+| [`06-tools`](06-tools/README.md) | Aus der Architektur abgeleitete Werkzeuganforderungen |
+| [`07-roadmap`](07-roadmap/README.md) | Entwicklungsweg, Backlog, offene Fragen und nächste Schritte |
+| [`08-decisions`](08-decisions/README.md) | Architecture Decision Records (ADRs) und Entscheidungshistorie |
+| [`templates`](templates/README.md) | Einheitliche Vorlagen für Arbeitsdokumente, Workshops und ADRs |
+| [`appendix`](appendix/README.md) | Glossar und gezielte Referenzen |
 
-## Arbeitsprinzipien
+## Jetzt starten
 
-- Zielbild vor Massnahme.
-- Klarheit vor Vollstaendigkeit.
-- Verantwortung und Entscheidung gehoeren zusammen.
-- Der SLK prueft und schaerft die Architektur, er erfindet nicht jedes Detail neu.
-- Domain-Experten gestalten ihre Bereiche innerhalb der gemeinsamen Leitplanken.
-- Entscheidungen werden nachvollziehbar dokumentiert.
-- Werkzeuge bilden die Organisation ab, sie ersetzen sie nicht.
+1. [`START-HERE.md`](START-HERE.md) lesen.
+2. Die Methodik in
+   [`00-foundation/architecture-process.md`](00-foundation/architecture-process.md)
+   gemeinsam klären.
+3. Den ersten SLK-Workshop mit
+   [`01-workshops/01-slk-auftakt`](01-workshops/01-slk-auftakt/README.md)
+   vorbereiten und durchführen.
+4. Ergebnisse in den vorgesehenen Arbeitsdokumenten sichern – nicht sofort in
+   endgültige Regeln verwandeln.
+5. Entscheidungen erst dann als ADR festhalten, wenn Entscheidungsträger,
+   Begründung und Konsequenzen klar sind.
 
-## Zusammenarbeit
+## Leitplanken für die Arbeit
 
-Die erste Version entsteht in drei Kreisen:
-
-1. Hauptstammleitung: entwirft das Big Picture.
-2. SLK: prueft, hinterfragt, ergaenzt und committed sich auf die Richtung.
-3. Domain-Experten: arbeiten einzelne Bereiche konkret aus.
-
-Details stehen in [`CONTRIBUTING.md`](CONTRIBUTING.md).
+- Beobachtung, Deutung, Hypothese, Entwurf und Entscheidung bleiben getrennt.
+- Beteiligung bedeutet nicht, dass jeder alles entscheidet.
+- Architekturverantwortung und echte Mitgestaltung gehören zusammen.
+- Werkzeuge folgen der Organisation; sie bestimmen sie nicht.
+- Nicht jede gute Idee wird umgesetzt.
+- Leitungskapazität wird vor Geld, Material und Terminen geprüft.
+- Inhalte bleiben veränderbar; Entscheidungen bleiben nachvollziehbar.

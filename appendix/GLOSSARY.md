@@ -1,111 +1,154 @@
 # Glossar
 
-Gemeinsame Begriffe verhindern, dass wir aneinander vorbeireden.
-
 ## ADR
 
-Architecture Decision Record. Ein kurzes Dokument, das eine wichtige
-Architekturentscheidung mit Kontext, Optionen, Entscheidung und Konsequenzen
-festhaelt.
+Architecture Decision Record. Dokumentiert eine autorisierte Entscheidung mit
+Kontext, Optionen, Begründung, Konsequenzen und Review.
+
+## Architecture Review Board
+
+Rolle des SLK im RRLA-Prozess: Der SLK prüft Rahmen, Sprache, Vollständigkeit,
+Praxistauglichkeit und Auswirkungen und entwickelt Inhalte mit. Das macht ihn
+nicht automatisch zum Entscheider jedes operativen Themas.
+
+## Architecture Workspace
+
+Gemeinsamer Arbeits- und Gedächtnisraum für Beobachtungen, Fragen, Workshops,
+Entwürfe, Entscheidungen und Lernschleifen. Für die RRLA ist dies GitHub.
+
+## Architekturentwurf
+
+Zusammenhängender Vorschlag, der aus gemeinsamen Erkenntnissen entwickelt wurde.
+Ein Entwurf ist noch keine Entscheidung.
 
 ## Architekturprinzip
 
-Ein Leitsatz, an dem spaetere Entscheidungen gemessen werden.
+Leitsatz, an dem spätere Strukturentscheidungen geprüft werden. Ein Prinzip wird
+erst verbindlich, wenn es dafür ein klares Mandat und eine dokumentierte
+Entscheidung gibt.
 
-Beispiel:
+## Architekturverantwortung
 
-> Verantwortung und Entscheidung gehoeren zusammen.
+Verantwortung der Hauptstammleitung für Methodik, Big Picture, Konsistenz,
+Reihenfolge, Templates, Visualisierungen, Moderation und Versionierung.
 
-## Bereich
+## Beauftragung
 
-Allgemeiner Begriff fuer ein Verantwortungsfeld. In RRLA bevorzugen wir den
-praeziseren Begriff Domain.
+Gemeinsam angenommene, geklärte Verantwortung mit Ziel, Zeitraum, Mandat,
+Leitplanken, Begleitung und Rechenschaft. Eine Beauftragung ist nicht mit einer
+geistlichen Berufung gleichzusetzen.
+
+## Beobachtung
+
+Konkrete, möglichst wertungsfreie Wahrnehmung. Sie beschreibt, was sichtbar oder
+hörbar ist, ohne Ursache oder Lösung vorwegzunehmen.
 
 ## Domain
 
-Fachlicher Verantwortungsbereich, der stammweit wirkt und allen Teilstaemmen
-dient.
+Dauerhafter stammweiter fachlicher Verantwortungsbereich, der Linie und Projekte
+unterstützt, zum Beispiel Material oder Kommunikation. Veranstaltungen sind
+keine Domains.
 
-Beispiele:
+## Einladung
 
-- Material
-- Kommunikation
-- Medien
-- Ausbildung
-- IT / RRBase
+Offenes, konkretes Angebot, Verantwortung befristet oder begleitet zu erproben.
+Eine Einladung lässt Bedenkzeit und ein folgenloses Nein zu.
 
-## Domain-Owner
+## Fachorganisation
 
-Person, die eine Domain fachlich verantwortet. Owner bedeutet mehr als Helfer:
-Auftrag, Entscheidungsraum, Leitplanken und Rechenschaft sind geklaert.
+Dauerhafte stammweite Domains mit fachlicher Verantwortung, Standards und
+Leistungen für Linie und Projekte.
+
+## Freies Ja
+
+Zustimmung zu Verantwortung, die informiert, ohne unangemessenen Druck und mit
+realer Möglichkeit zum Nein gegeben wird.
+
+## Gemeinsame Erkenntnis
+
+Im Workshop gewonnenes Verständnis. Es kann geteilt oder weiterhin strittig
+sein und ist noch keine Architekturentscheidung.
+
+## Governance
+
+Mission, Werte, Leitplanken, Mandate, Budgets, Sicherheitsvorgaben und
+Eskalationswege, die dezentrale Entscheidungen ermöglichen und begrenzen.
 
 ## Hauptstammleitung
 
-Gesamtleitung des Stammes. In RRLA liegt der Fokus auf Vision, Kultur,
-Leiterentwicklung, Gemeindeanbindung, Architektur, Konfliktklaerung und
-Nachfolge, nicht auf operativer Detailsteuerung.
+Gesamtleitung des Stammes und Trägerin der Architekturverantwortung. Ihre
+konkrete Rolle im künftigen Operating Model wird gemeinsam weiterentwickelt.
 
-## Ist-Analyse
+## Hypothese
 
-Beschreibung der heutigen Ausgangslage. Sie erklaert, was beobachtet wird,
-entscheidet aber noch nicht, wie die Zukunft aussehen soll.
+Bewusst zu prüfende Annahme. Sie darf sich als falsch oder unvollständig
+erweisen.
 
-## Leitplanke
+## Leitungskapazität
 
-Grenze oder Orientierung, innerhalb derer Verantwortung frei ausgeuebt werden
-kann.
+Verfügbare Zeit, Reife, Energie und Führungsspanne von Menschen, die
+Verantwortung tragen können. Sie gilt bei Vorhaben als knappe strategische
+Ressource.
+
+## Linienorganisation
+
+Dauerhafte Führungsstruktur aus Hauptstammleitung, SLK, Teilstämmen und Teams.
+
+## Mandat
+
+Geklärter Auftrag mit Ziel, Verantwortung, Entscheidungsraum, Leitplanken,
+Ressourcen und Rechenschaft.
 
 ## Operating Model
 
-Beschreibung, wie der Stamm arbeitet und gefuehrt wird:
+Beschreibung des Zusammenspiels von Linienorganisation, Fachorganisation,
+Projektorganisation und Governance.
 
-- Rollen
-- Gremien
-- Entscheidungswege
-- Meetings
-- Domains
-- Projekte
+## Portfolio
 
-## Owner
-
-Eine Person, die fuer ein Thema Verantwortung traegt und innerhalb definierter
-Leitplanken Entscheidungen treffen darf.
-
-## Prozess
-
-Wiederholbarer Ablauf mit Ausloeser, Owner, Beteiligten, Entscheidungspunkten
-und Ergebnis.
+Gesamtheit laufender und geplanter Vorhaben. Portfolio-Denken priorisiert nicht
+nur Geld und Termine, sondern besonders Leitungskapazität und gegenseitige
+Konkurrenz von Projekten.
 
 ## Projekt
 
-Zeitlich begrenzte Arbeit mit klarem Ziel.
+Zeitlich begrenztes Vorhaben mit Ziel, Start, Ende, Budget, Mandat und
+Projektleitung. Sommercamp, Weihnachtsmarkt, Mitarbeiterwochenende und
+Großaktionen sind Projekte.
 
-Beispiele:
+## Projektorganisation
 
-- Sommercamp
-- Weihnachtsmarkt
-- Mitarbeiterwochenende
-- Grossaktion
+Temporäre Struktur, in der eine Projektleitung Schlüsselverantwortliche führt,
+die wiederum ihre Teams aufbauen.
+
+## Prozess
+
+Wiederholbarer Ablauf mit Auslöser, Owner, Beteiligten, Entscheidungspunkten und
+Ergebnis. Ein Projekt umfasst mehrere Prozesse, ist aber selbst kein Prozess.
 
 ## RRBase
 
-Eigene Plattform im Aufbau. RRBase soll Kommunikation, Wissen, Handbuch,
-Logbuchpruefungen und Prozesse unterstuetzen. In RRLA gilt: RRBase folgt der
-Architektur.
+Digitale Plattform im Aufbau. RRBase soll geklärte Kommunikation, Rollen,
+Wissen und Prozesse unterstützen; es bestimmt nicht die RRLA.
 
 ## RRLA
 
-Royal Rangers Leadership Architecture. Das dokumentierte Leadership Operating
-System des Stammes.
+Royal Rangers Leadership Architecture. Gemeinsamer Architektur- und Denkprozess
+für Führung, Kultur, Verantwortung, Entscheidungen und Leiterentwicklung.
 
 ## SLK
 
-Stammleiterkreis. In der Zielarchitektur soll der SLK vor allem Leitplanken
-setzen, wichtige Entscheidungen pruefen, Leiter entwickeln und Gesamtprioritaeten
-im Blick behalten. Operative Details sollen dort nur landen, wenn sie wirklich
-stammweite Relevanz haben.
+Stammleiterkreis. Im RRLA-Prozess wirkt er als Architecture Review Board und als
+Mitentwickler der Inhalte. Seine künftige operative und strategische Rolle ist
+noch gemeinsam zu klären.
 
-## Zielarchitektur
+## Spannungsfeld
 
-Beschreibung des gewuenschten Zielzustands. Sie ist nicht identisch mit der
-heutigen Realitaet, sondern beschreibt, wohin die Organisation wachsen soll.
+Zwei berechtigte Anliegen, die gleichzeitig gestaltet werden müssen, zum
+Beispiel Freiheit und Klarheit. Die RRLA versucht nicht, jede Spannung durch die
+einseitige Wahl eines Pols zu beseitigen.
+
+## Verantwortung
+
+Verbindlichkeit für ein Ergebnis. Verantwortung setzt ein angenommenes Mandat,
+passende Entscheidungsrechte, Ressourcen und Rechenschaft voraus.
